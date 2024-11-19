@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Health Records</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Decentralized Health Records Management</h1>
+        <div id="wallet-container" class="mb-3">
+            <button id="connect-wallet" class="btn btn-primary">Connect Wallet</button>
+            <div id="wallet-address" class="mt-2"></div>
+        </div>
+        <div id="record-form" class="mb-3">
+            <h3>Add Health Record</h3>
+            <input type="text" id="encryptedData" class="form-control" placeholder="Enter Encrypted Health Record" required>
+            <button id="add-record" class="btn btn-success mt-2">Add Record</button>
+        </div>
+        <div id="records-container">
+            <h3>Your Records</h3>
+            <ul id="records-list" class="list-group"></ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#record-form {
+    margin: 20px 0;
+}
+
+#records-container {
+    margin-top: 20px;
+}
