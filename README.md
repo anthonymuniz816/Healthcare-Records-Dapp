@@ -1,5 +1,7 @@
 # Healthcare-Records-Dapp
 DApp that allows patients to manage their health records securely on the blockchain. This system will enable patients to share their medical history with healthcare providers while maintaining control over who accesses their information.
+![HealthcareDappDemo2](https://github.com/user-attachments/assets/a1641ba9-23f2-456b-93dd-a6de01f6ad39)
+
 
 ## System Manual
 
